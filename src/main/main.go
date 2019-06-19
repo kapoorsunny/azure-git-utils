@@ -85,9 +85,9 @@ func main() {
 	azure.HandleoptRepoName(*optNumBranches, *optRepoName)
 	azure.GetRepoAndBranchesTable(credential, *optListRepoWithBranches)
 
-	commits := azure.GetCommits(credential, "70626f4d-e6bc-484c-9315-d89814579bee")
+	/*commits := azure.GetCommits(credential, "70626f4d-e6bc-484c-9315-d89814579bee")
 	fmt.Println(commits.Commits[0])
-	fmt.Println(commits.Commits[1])
+	fmt.Println(commits.Commits[1])*/
 
 	os.Exit(-1)
 
